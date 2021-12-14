@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31919.166
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJobsServiceBus_430", "WebJobsServiceBus_430\WebJobsServiceBus_430.csproj", "{783D63A3-D98E-4BB3-BB00-ABFE5BA3C6BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebJobsServiceBus_520", "WebJobsServiceBus_520\WebJobsServiceBus_520.csproj", "{A777127B-299F-4196-833D-1FD5BEC342E0}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{783D63A3-D98E-4BB3-BB00-ABFE5BA3C6BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{783D63A3-D98E-4BB3-BB00-ABFE5BA3C6BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{783D63A3-D98E-4BB3-BB00-ABFE5BA3C6BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{783D63A3-D98E-4BB3-BB00-ABFE5BA3C6BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A777127B-299F-4196-833D-1FD5BEC342E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A777127B-299F-4196-833D-1FD5BEC342E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A777127B-299F-4196-833D-1FD5BEC342E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A777127B-299F-4196-833D-1FD5BEC342E0}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {24E4E5F6-0FDE-4A37-ADB2-6EC0A3081095}
+	EndGlobalSection
+EndGlobal

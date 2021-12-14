@@ -1,0 +1,25 @@
+//// Results in
+//// A host error has occurred during startup operation 'cc5cd0c2-bd64-4cfe-a4f9-09b8307d08bc'.
+//// Microsoft.Azure.ServiceBus: Value cannot be null. (Parameter 'ServiceBusConnection doesn't have a valid token provider').
+//{
+//  "IsEncrypted": false,
+//  "Values": {
+//    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+//    "AzureWebJobsServiceBus": "Endpoint=sb://test-ns.servicebus.windows.net/",
+//    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+//  }
+//}
+
+
+
+//// Results in
+//// A host error has occurred during startup operation '6ec0cd2e-693f-4730-bbf1-6bb597bd2729'.
+//// Microsoft.Azure.WebJobs.ServiceBus: Microsoft Azure WebJobs SDK ServiceBus connection string 'AzureWebJobsServiceBus' is missing or empty.
+{
+  "IsEncrypted": false,
+  "Values": {
+    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
+    "AzureWebJobsServiceBus__fullyQualifiedNamespace": "test-ns.servicebus.windows.net",
+    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
+  }
+}
