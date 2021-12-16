@@ -1,36 +1,8 @@
-//// A host error has occurred during startup operation 'c1602bdf-08f3-403c-a450-6ecbd5893ef9'. 
-//// NServiceBus.AzureFunctions.InProcess.ServiceBus: Azure Service Bus connection string named 'AzureWebJobsServiceBus' was provided but wasn't found in the environment variables. Make sure the connection string is stored in the environment variable named 'AzureWebJobsServiceBus'.
-//{
-//  "IsEncrypted": false,
-//  "Values": {
-//    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-//    "AzureWebJobsServiceBus__fullyQualifiedNamespace": "test-ns.servicebus.windows.net",
-//    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
-//  }
-//}
-
-
-
-//// A host error has occurred during startup operation 'e98dd4e2-f0f7-42d1-8254-a9d6756b43a1'.
-//// Azure.Messaging.ServiceBus: The connection string could not be parsed; either it was malformed or contains no well-known tokens.
-//{
-//  "IsEncrypted": false,
-//  "Values": {
-//    "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-//    "AzureWebJobsServiceBus": "test-ns.servicebus.windows.net",
-//    "AzureWebJobsServiceBus__fullyQualifiedNamespace": "test-ns.servicebus.windows.net",
-//    "FUNCTIONS_WORKER_RUNTIME": "dotnet"
-//  }
-//}
-
-// A host error has occurred during startup operation 'a803b6f9-1084-4df3-afe2-95f7f667e513'.
-// Azure.Messaging.ServiceBus: The connection string used for an Service Bus client must specify the Service Bus namespace host and either a Shared Access Key (both the name and value) OR a Shared Access Signature to be valid. (Parameter 'connectionString').
-
 {
   "IsEncrypted": false,
   "Values": {
     "AzureWebJobsStorage": "UseDevelopmentStorage=true",
-    "AzureWebJobsServiceBus": "Endpoint=sb://test-ns.servicebus.windows.net",
+    "AzureWebJobsServiceBus": "Endpoint=sb://test-ns.servicebus.windows.net;Authentication=ManagedIdentity",
     "AzureWebJobsServiceBus__fullyQualifiedNamespace": "test-ns.servicebus.windows.net",
     "FUNCTIONS_WORKER_RUNTIME": "dotnet"
   }

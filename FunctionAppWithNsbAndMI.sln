@@ -7,7 +7,7 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJobsServiceBus_430", "We
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebJobsServiceBus_520", "WebJobsServiceBus_520\WebJobsServiceBus_520.csproj", "{A777127B-299F-4196-833D-1FD5BEC342E0}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "NServiceBusInProcess_2x", "NServiceBusInProcess_2x\NServiceBusInProcess_2x.csproj", "{6ED07178-93C9-4CD5-BC5D-76A252276C8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "NServiceBusInProcess_2x", "NServiceBusInProcess_2x\NServiceBusInProcess_2x.csproj", "{6ED07178-93C9-4CD5-BC5D-76A252276C8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
